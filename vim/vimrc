@@ -1,3 +1,14 @@
+set nocompatible
+" Pathogen
+"execute pathogen#infect()
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+" Vundle bundles
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'tpope/vim-fugitive'
+
 syntax on
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
@@ -25,6 +36,5 @@ set expandtab
 set smarttab
 " Indent based on file type
 filetype plugin indent on
-" Pathogen
-execute pathogen#infect()
+
 
