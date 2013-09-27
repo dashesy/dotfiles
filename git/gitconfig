@@ -1,0 +1,9 @@
+[user]
+	name = Ehsan Azarnasab
+	email = dashesy@gmail.com
+[push]
+	default = simple
+[mergetool "fugitive"]
+	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
+[merge]
+	tool = fugitive

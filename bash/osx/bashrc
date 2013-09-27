@@ -1,0 +1,6 @@
+shopt -s histappend
+export TERM="xterm-color"
+PS1='\[\e[32m\]\u@\[\e[37m\]\h \[\e[33m\]\w\[\e[37m\]\n\$ '
+export CLICOLOR=1
+export LSCOLOR=GxFxCxDxBxegedabagaced
+

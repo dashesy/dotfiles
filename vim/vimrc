@@ -1,0 +1,30 @@
+syntax on
+map <S-Enter> O<Esc>
+map <CR> o<Esc>
+set shiftwidth=4 softtabstop=4
+set incsearch ignorecase hlsearch
+" Press space to clear search highlighting and any message already displayed.
+nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
+" Next Tab
+nnoremap <silent> <C-Right> :tabnext<CR>
+" Previous Tab
+nnoremap <silent> <C-Left> :tabprevious<CR>
+" New Tab
+nnoremap <silent> <C-t> :tabnew<CR>
+" When I close a tab, remove the buffer
+set nohidden
+" Real men use gcc
+compiler gcc
+" Cool tab completion stuff
+set wildmenu
+set wildmode=list:longest,full
+" Who doesn't like autoindent?
+set autoindent
+" Spaces are better than a tab character
+set expandtab
+set smarttab
+" Indent based on file type
+filetype plugin indent on
+" Pathogen
+execute pathogen#infect()
+
