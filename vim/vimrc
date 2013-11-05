@@ -11,6 +11,10 @@ Bundle 'tpope/vim-fugitive'
 
 filetype on
 syntax on
+
+" Avoid vimdiff fg==bg confusion
+highlight! link DiffText Todo
+
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
 set shiftwidth=4 softtabstop=4
