@@ -48,3 +48,9 @@ nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 let g:ycm_filetype_whitelist = { 'c': 1, 'cpp': 1, 'python':1 }
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_min_num_of_chars_for_completion = 5
+
+" Paste mode
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
