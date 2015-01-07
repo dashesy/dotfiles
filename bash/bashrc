@@ -6,10 +6,12 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-HISTCONTROL=ignoredups:erasedups
+HISTCONTROL=ignoredups:erasedups:ignorespace
 export HISTSIZE=10000
 export HISTFILESIZE=100000
 shopt -s histappend
+# check and set LINE and COLUMNS after each command
+shopt -s checkwinsize
 # PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
 bind '"\e[A"':history-search-backward
 bind '"\e[B"':history-search-forward

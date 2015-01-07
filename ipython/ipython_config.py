@@ -163,14 +163,14 @@ c = get_config()
 # Use colors for displaying information about objects. Because this information
 # is passed through a pager (like 'less'), and some pagers get confused with
 # color codes, this capability can be turned off.
-# c.TerminalInteractiveShell.color_info = True
+c.TerminalInteractiveShell.color_info = True
 
 # A list of ast.NodeTransformer subclass instances, which will be applied to
 # user input before code is run.
 # c.TerminalInteractiveShell.ast_transformers = []
 
 # 
-# c.TerminalInteractiveShell.history_length = 10000
+c.TerminalInteractiveShell.history_length = 10000
 
 # Don't call post-execute functions that have failed in the past.
 # c.TerminalInteractiveShell.disable_failing_post_execute = False
@@ -179,7 +179,7 @@ c = get_config()
 # c.TerminalInteractiveShell.show_rewritten_input = True
 
 # Set the color scheme (NoColor, Linux, or LightBG).
-# c.TerminalInteractiveShell.colors = 'Linux'
+c.TerminalInteractiveShell.colors = 'Linux'
 
 # Autoindent IPython code entered interactively.
 # c.TerminalInteractiveShell.autoindent = True
