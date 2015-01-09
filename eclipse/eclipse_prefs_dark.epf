@@ -530,7 +530,6 @@
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.formatter.insert_space_before_opening_brace_in_switch=insert
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.formatter.alignment_for_binary_expression=16
 /instance/org.eclipse.ui.editors/occurrenceIndicationColor=0,0,0
-/instance/org.eclipse.cdt.managedbuilder.core/properties/amiigo-link.null.687684915/cdt.managedbuild.toolchain.gnu.base.1629812734=cdt.managedbuild.toolchain.gnu.base.1629812734\=rcState\\\=0\\nrebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.c.compiler.base.341380630\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.cpp.compiler.base.1278502544\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.assembler.base.728278464\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.cpp.linker.base.670805916\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.c.linker.base.510838964\=rebuildState\\\=false\\n\ncdt.managedbuild.toolchain.gnu.base.1811950804\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.archiver.base.263924011\=rebuildState\\\=false\\n\n
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.AS3SemanticHighlightGenerator.AS3.XMLAttributeValue_enabled=true
 /instance/com.powerflasher.fdt.ui/AS_PRIVATE_color=255,0,127
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.mxml.mxmlHighlightGenerator.AS3.MXMLSetter_color=167,236,33
@@ -538,8 +537,6 @@
 /instance/org.eclipse.php.ui/editorColorNumber=\#C48CFF | null | null | null | null | null
 /instance/org.eclipse.cdt.ui/c_single_line_comment=255,255,255
 /instance/org.python.pydev/STRING_STYLE=0
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/home/dashesy/Development/amiigo-classifier/.git\:/home/dashesy/Development/pedometer/.git\:/home/dashesy/Development/amiigo-droid/.git\:/home/dashesy/Development/amiigo-link/.git\:/home/dashesy/Development/amiigo-firmware/.git\:
-/instance/org.eclipse.cdt.managedbuilder.core/properties/amiigo-link.null.2112478559/cdt.managedbuild.toolchain.gnu.base.1286896083=cdt.managedbuild.tool.gnu.cpp.linker.base.252835677\=rebuildState\\\=true\\n\ncdt.managedbuild.toolchain.gnu.base.1286896083\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.c.linker.base.1685191516\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.c.compiler.base.73910250\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.archiver.base.1633415003\=rebuildState\\\=true\\n\ncdt.managedbuild.toolchain.gnu.base.355562927\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.cpp.compiler.base.1312722807\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.assembler.base.288416245\=rebuildState\\\=true\\n\n
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.dltk.ruby.ui/variable=207,191,173
 /instance/com.adobe.flexide.as.core/asReservedBold=false
@@ -652,7 +649,6 @@
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.layout=2
 /instance/org.cfeclipse.cfml/cfscriptfunctionColor=167,236,33
 /instance/org.python.pydev/OPERATORS_COLOR=255,0,127
-/instance/org.eclipse.rse.core/org.eclipse.rse.systemtype.local.systemType.defaultUserId=dashesy
 /instance/eclihx.ui/hx_editor_haxe_doc_color=255,255,255
 @org.eclipse.cdt.debug.ui=7.3.0.201308222215
 /instance/org.codehaus.groovy.eclipse.ui/semanticHighlighting.method.color=167,236,33
@@ -804,7 +800,6 @@
 /instance/org.eclipse.jst.jsp.ui/tagAttributeEquals=\#CFBFAD | null | null | null | null | null
 /instance/com.powerflasher.fdt.ui/AS_KEYWORD_color=255,0,127
 /instance/de.walware.statet.r.ui/text_R_rSeparators.color=255,0,127
-/instance/org.eclipse.rse.core/useridperkey=localhost.Local\=dashesy;
 /instance/org.erlide.ui/editor/colors/variable/color=207,191,173
 /instance/org.eclipse.jdt.ui/semanticHighlighting.class.color=82,227,246
 \!/=
@@ -1205,7 +1200,6 @@ file_export_version=3.0
 /instance/org.eclipse.dltk.ruby.ui/DLTK_doc.topic=207,191,173
 /instance/org.eclipse.pde.ui/editor.color.instr=167,236,33
 /instance/org.eclipse.cdt.ui/pp_default=207,191,173
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=/home/dashesy/Development\nC\:\\MyProjects\\xPlatform\nC\:\\MyProjects\\xPlatform6.03\nC\:\\MyProjects\\xPlatform6.04
 /instance/org.eclipse.cdt.ui/c_operators=255,0,127
 /instance/org.eclipse.wst.css.ui/SELECTOR=\#A7EC21 | null | null | null | null | null
 /instance/org.eclipse.php.ui/semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.FunctionHighlighting.enabled=true
