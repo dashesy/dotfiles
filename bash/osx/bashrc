@@ -1,6 +1,13 @@
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+HISTCONTROL=ignoredups:erasedups
 shopt -s histappend
 export TERM="xterm-color"
 PS1='\[\e[32m\]\u@\[\e[37m\]\h \[\e[33m\]\w\[\e[37m\]\n\$ '
 export CLICOLOR=1
 export LSCOLOR=GxFxCxDxBxegedabagaced
-
+bind '"\e[A"':history-search-backward
+bind '"\e[B"':history-search-forward
