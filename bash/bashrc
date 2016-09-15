@@ -5,6 +5,10 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+
+export TERM=xterm-color
+export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+
 # User specific aliases and functions
 HISTCONTROL=ignoredups:erasedups:ignorespace
 export HISTSIZE=10000
