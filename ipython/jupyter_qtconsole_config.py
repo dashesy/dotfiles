@@ -432,3 +432,5 @@
 # c.Session.username = 'username'
 
 c.JupyterWidget.syntax_style = "monokai"
+c.JupyterWidget.buffer_size=10000
+
