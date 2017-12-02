@@ -1,3 +1,9 @@
+# Inscrease buffer size
+defscrollback 10000
+
+# Mouse scroll
+termcapinfo xterm* ti@:te@
+
 # When you open a text editor like nano in screen and then close it, the text may stay visible in 
 # your terminal. To fix this, put the following in your ~/.screenrc:
 altscreen on
