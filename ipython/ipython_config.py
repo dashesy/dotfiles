@@ -503,6 +503,6 @@ c.TerminalInteractiveShell.colors = 'Linux'
 
 # Autoreload
 c.InteractiveShellApp.extensions = ['autoreload']
-c.InteractiveShellApp.exec_lines = ['%autoreload 2', '%matplotlib']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2', '%pylab']
 c.IPythonWidget.buffer_size=10000
 
